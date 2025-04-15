@@ -2,7 +2,7 @@
 
 ## Authors
 
-Sphia Sadek
+Sphia Sadek, Andrew Lukashchuk, Dewayne Barnes, Nicholas Molina
 
 ## Problem Statement
 
@@ -59,9 +59,19 @@ _[List user stories that describe the main features of your Chrome Extension. Us
 
 8. As a user, I want to review and edit the auto-generated availability message before sending it so that I maintain control over my communication.
 
-9. As a frequent scheduler, I want the extension to avoid suggesting times when I have tentative or all-day events so that I don’t overbook.
+9.  As a frequent scheduler, I want the extension to avoid suggesting times when I have tentative or all-day events so that I don’t overbook.
 
 10. As someone coordinating across time zones, I want the reply to include the time zone or convert suggestions to the recipient’s time zone when possible.
+
+11. As a google calendar user, I want to have control of which dates to not be included in my email for my availability.
+    
+12. As a gmail user, I want to be able to be able to send the email myself.
+
+13. As a busy student managing multiple classes, I want the extension to suggest time slots that avoid overlapping class times so that I never accidentally schedule meetings during lectures.
+
+14. As a manager frequently scheduling group meetings, I want the extension to suggest availability that maximizes attendance based on my shared calendars so that coordinating multiple participants becomes simpler.
+
+15. As an academic advisor frequently communicating with students, I want the extension to remember previously suggested times to avoid repeatedly offering identical slots, ensuring efficient and varied scheduling options.
 
 ## Notes
 
