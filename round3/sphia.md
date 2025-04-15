@@ -4,6 +4,8 @@
 
 Sphia Sadek, Andrew Lukashchuk, Dewayne Barnes, Nicholas Molina
 
+Team 11
+
 ## Problem Statement
 
 Scheduling meetings over email is often time-consuming and repetitive. When someone asks, "When are you free to meet next week?", users typically have to switch tabs, check their calendar, and manually type out their availability. This workflow is especially inefficient for busy professionals managing multiple events.
