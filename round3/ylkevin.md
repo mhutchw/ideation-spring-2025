@@ -29,14 +29,22 @@ This is a Chrome Extension that scrapes all visible reviews from a selected Amaz
 
 As an online shopper, I want to quickly see the main pros and cons of a product without reading hundreds of reviews.
 As a tech-savvy buyer, I want to send reviews to ChatGPT with a click and get a summarized response tailored to my needs.
-As a frequent Amazon user, I want to reuse a prompt that focuses on build quality and customer service in every product I evaluate.
+As a frequent Amazon user, I want to reuse a prompt that focuses on build quality and customer servicein every product I evaluate.
 As a decision-maker, I want to compare two similar products by getting LLM-generated summaries of each.
 As a user, I want the extension to remember my preferred LLM and default prompt so that the process is seamless every time.
 As a researcher, I want to extract structured review summaries to track sentiment across multiple products.
 As a Chrome user, I want the interface to be lightweight and work reliably across Amazon’s product page layouts.
 As a user, I want to eventually export summaries or share them with friends to help others make informed choices.
+As a student shopping on a budget, I want to highlight common issues with cheaper products to avoid bad purchases.
+As a parent buying toys, I want to know if certain safety concerns are raised frequently in reviews.
+As a visually impaired user, I want the extension to support screen readers and keyboard navigation.
+As a privacy-conscious shopper, I want to know what data the extension accesses and be able to disable features I don’t use.
+As a reviewer myself, I want to quickly scan what other people are saying before deciding whether my experience is unique.
+As a casual user, I want to understand which LLM is best for summarization so I can make the right choice in settings.
+As someone shopping on mobile via desktop mode, I want the extension to adapt to different screen layouts or mobile web views.
 
 ## Notes
+
 While this would be a first Chrome extension project, it seems very feasible. The main challenges would likely be:
 Handling review pagination on Amazon.
 Creating smooth cross-tab LLM injection (likely simulating keyboard input or clipboard pasting).
@@ -44,5 +52,6 @@ Dealing with rate limits or UI changes in third-party LLMs.
 Making sure formatting stays clean and readable for LLMs to interpret correctly.
 
 ## References & Inspiration
+
 ChatGPT Chrome Extensions for UX inspiration
 Prompt engineering guides from OpenAI and DeepSeek
