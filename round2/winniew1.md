@@ -1,4 +1,4 @@
-# Chrome Extension Idea: Study Helper
+# Chrome Extension Idea: ReviewDigest
 
 ## Authors
 
@@ -6,38 +6,43 @@ Winnie Wang, Kevin Yang-Li, Wesley Liu
 
 ## Problem Statement
 
-When students and knowledge workers read online content—whether on Canvas, digital textbooks, or research articles—they often have to manually copy-paste text into a chatbot like ChatGPT to ask questions, generate summaries, or create study materials. This repetitive task breaks focus and makes prompt-based learning inefficient. Moreover, effective prompts are rarely saved or reused, causing users to retype or forget what worked before. This extension (maybe called Prompt-something) solves these pain points by allowing users to instantly send selected webpage content to customizable LLM prompts and save both the prompt and the output in a searchable personal history.
+When users shop online, especially on platforms like Amazon, they are often overwhelmed by the sheer volume of product reviews. Sorting through hundreds of opinions to identify genuine pros and cons takes time and effort, and many buyers abandon the process or make poorly informed decisions. Additionally, users who want to use LLMs like ChatGPT, Gemini, or Claude to help them summarize reviews must manually copy and format the reviews, open a separate tab, and craft prompts from scratch. This Chrome extension addresses these pain points by automating review extraction and LLM interaction in a seamless, customizable workflow.
 
 ## Target Audience
 
-The target audience would be students, researchers, and self-learners who engage often with digital content for studying, learning, or writing. They commonly use tools like ChatGPT and want to streamline their workflows. Most are familiar with browser extensions and want lightweight tools that enhance productivity, without introducing steep learning curves or having to juggle lots of applications.
+The primary audience includes online shoppers who research reviews before purchasing products. This includes tech enthusiasts, parents, students, professionals—anyone who values informed decisions but wants to save time. Users are likely familiar with Chrome extensions and large language models but want a quicker, smarter way to use them in the context of e-commerce.
 
 ## Description
 
-This is a Chrome Extension that allows users to highlight content on any webpage, send it to an LLM with a pre-written or custom prompt, and store the interaction in a personal prompt-response library. It eliminates the need to copy-paste into separate windows and encourages the creation of reusable study tools based on real-time content.
+This is a Chrome Extension that scrapes all visible reviews from a selected Amazon product page, formats them, and then opens a new tab with the user’s chosen LLM (e.g., ChatGPT, Gemini, DeepSeek). It pastes the reviews along with a personalized, pre-saved prompt into the LLM interface. The prompt can ask the model to summarize the main pros and cons, highlight recurring complaints or praises, or compare with alternative products. Users can customize and save their default prompt in the extension’s settings for future use.
 
 ## Selling Points
 
-1. One-click LLM querying directly from any webpage without switching tabs or apps.
-2. Custom and reusable prompts tailored to specific study or research goals.
-3. Automatic saving of input and output into a searchable prompt history.
-4. Lightweight interface designed to work seamlessly with platforms like Canvas, PDFs, and online textbooks.
-5. Enhances study habits by making prompting more efficient, organized, and reflective.
+1. One-click extraction and summarization of Amazon reviews using any LLM.
+2. Works with ChatGPT, DeepSeek, Gemini, Claude, and other popular chatbots.
+3. Personalized prompts let users tailor summaries for what they care about (e.g., durability, ease of use, etc.).
+4. Auto-formatting of reviews into clean, LLM-friendly input (e.g., bullet points, separated by sentiment).
+5. Saves time by eliminating repetitive manual tasks like copying and pasting.
+6. Ideal for comparing multiple products quickly or making last-minute buying decisions with clarity.
 
 ## User Stories
 
-As a student, I want to highlight text from an online reading and ask the LLM to simplify it so that I can better understand difficult concepts.
-As a researcher, I want to summarize dense academic abstracts quickly so that I can skim papers more efficiently.
-As a learner, I want to save my prompts and LLM responses so that I can reference useful explanations later.
-As a user, I want to apply pre-written prompt templates so that I don't have to retype the same requests repeatedly.
-As a student, I want to tag saved prompts by course or topic so that I can find related material easily.
-As a student, I want to compare how different prompts affect LLM responses so that I can refine my study strategies over time.
-As a user, I want to search through my saved prompt-response history so that I can quickly retrieve past explanations without repeating work.
-As a learner, I want to export my saved prompts and outputs to a CSV or text file so that I can study offline or integrate them into other tools.
-As a student, I want to customize prompt templates for different subjects so that the LLM gives responses aligned with the way each course is taught.
-As a user, I want to pin or favorite certain responses so that I can keep the most helpful insights easily accessible.
+As an online shopper, I want to quickly see the main pros and cons of a product without reading hundreds of reviews.
+As a tech-savvy buyer, I want to send reviews to ChatGPT with a click and get a summarized response tailored to my needs.
+As a frequent Amazon user, I want to reuse a prompt that focuses on build quality and customer service in every product I evaluate.
+As a decision-maker, I want to compare two similar products by getting LLM-generated summaries of each.
+As a user, I want the extension to remember my preferred LLM and default prompt so that the process is seamless every time.
+As a researcher, I want to extract structured review summaries to track sentiment across multiple products.
+As a Chrome user, I want the interface to be lightweight and work reliably across Amazon’s product page layouts.
+As a user, I want to eventually export summaries or share them with friends to help others make informed choices.
 
 ## Notes
-Personally haven’t developed an extension or anything similar before, so thought this is a feasible and within scope idea for a first time project that would fit within our time constraints. I think that the biggest challenge would be figuring out asynchronous API calls and also the issue of local storage. 
+While this would be a first Chrome extension project, it seems very feasible. The main challenges would likely be:
+Handling review pagination on Amazon.
+Creating smooth cross-tab LLM injection (likely simulating keyboard input or clipboard pasting).
+Dealing with rate limits or UI changes in third-party LLMs.
+Making sure formatting stays clean and readable for LLMs to interpret correctly.
 
 ## References & Inspiration
+ChatGPT Chrome Extensions for UX inspiration
+Prompt engineering guides from OpenAI and DeepSeek
