@@ -1,7 +1,7 @@
 # Chrome Extension Idea: AutoAvail for GCal
 
 ## Authors  
-Prithvi 
+Clyve, Hemosoo, Natalie, Prithvi
 
 ## Problem Statement  
 Scheduling meetings via email is a tedious and error-prone process because users must manually check their Google Calendar and type out their available times. This inefficiency wastes time and can lead to scheduling conflicts if the calendar data becomes outdated during email composition. The AutoAvail for GCal Chrome extension solves this by integrating with Google Calendar to automatically extract and insert available time slots directly into emails when the user types "{availability}", streamlining the scheduling process.
